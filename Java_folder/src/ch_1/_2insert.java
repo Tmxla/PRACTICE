@@ -22,5 +22,7 @@ public class _2insert extends AbstractSort {
         System.out.println("--------------------");
         
         _2insert.sort(a);
+        System.out.print("정렬 후: ");
+        show(a);
     }
 }
